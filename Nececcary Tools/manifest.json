@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Nececcary Tools",
+  "description": "Lets you use nececcary tools when you need them.",
+  "version": "5.3",
+  "content_scripts": [
+    {
+      "js": [
+        "content-script.js"
+      ],
+      "matches": [
+        "*://*/*"
+      ]
+    }
+  ]
+}
